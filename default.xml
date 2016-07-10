@@ -35,7 +35,6 @@
 
   <project path="android" remote="suda" revision="sm-2.0" name="SudaMod/android" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-2.0" name="SudaMod/android_external_suda_SudaSDKs" />
-  <project path="frameworks/base" remote="ferhung" revision="sm-2.0" name="ferhung/android_frameworks_base-suda" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Browser" groups="pdk-fs" /> 
   <project path="packages/apps/Calendar" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />  
   <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
@@ -55,17 +54,20 @@
   <project path="packages/services/Telecomm" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />  
   <project path="packages/services/Telephony" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/WeatherProvider" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_providers_WeatherProvider" />
-  <project path="system/core" remote="ferhung" revision="sm-2.0" name="ferhung/android_system_core-suda" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-2.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-2.0" name="SudaMod/android_vendor_sm" />
   <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
- <project path="external/sepolicy" name="SudaMod/android_external_sepolicy" groups="pdk" remote="ferhung" revision="cm-13.0" />
+
   <project path="device/qcom/sepolicy" name="SudaMod/android_device_qcom_sepolicy" remote="suda" revision="sm-2.0" />
   <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" revision="sm-2.0"  />
   <project path="packages/apps/doze" name="SudaMod/android_packages_apps_doze" remote="suda" revision="sm-2.0"  />
 <!-- END SUDAMOD -->
 
 <!-- BEGIN MTK -->
+  <project path="frameworks/base" revision="sm-2.0" name="ferhung/android_frameworks_base-suda" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/core" revision="sm-2.0" name="ferhung/android_system_core-suda" groups="pdk" /> 
+  <project path="external/sepolicy" name="ferhung/android_external_sepolicy-suda" groups="pdk" />
+
   <project path="frameworks/av" name="ferhung-mtk/android_frameworks_av" groups="pdk" />
   <project path="frameworks/native" name="ferhung-mtk/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/telephony" name="ferhung-mtk/android_frameworks_opt_telephony" groups="pdk" />
